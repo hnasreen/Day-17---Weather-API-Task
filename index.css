@@ -1,0 +1,31 @@
+.card{
+    text-align: center;
+    display: flex ; 
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background: linear-gradient(to right, rgba(218, 197, 149, 0.5) 0%, rgba(233, 220, 147, 0.2) 25%, rgba(255, 255, 255, 0) 50%, rgba(69, 67, 67, 0.2) 75%, rgba(98, 93, 93, 0.5) 100%);
+    border: 1px solid white !important;
+   /* background: linear-gradient(to right, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.2) 50%, rgba(240, 240, 240, 0.2) 50%); */
+}
+.card .card-header {
+    width: 100%;
+    background-color:black;
+    color:white
+}
+
+p{
+    color:white
+}
+body{
+    background-color:rgb(61, 62, 62)
+}
+.btn{
+    background-color: transparent;
+    border: 1px solid white;
+    transition: background-color 0.3s ease; 
+}
+
+.btn:hover {
+    background-color: rgba(0, 123, 255, 0.1);
+}
